@@ -1,5 +1,6 @@
 #Analysis of categorial data
-setwd("")
+wd <- getwd();
+setwd("wd")
 
 raw <- read.table("marriage_and_education.txt")
 #raw[1,] <- NULL
