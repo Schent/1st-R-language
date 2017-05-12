@@ -1,4 +1,4 @@
-setwd("/Users/schent/Documents/year3/stat_com/lect11_data/")
+setwd("")
 
 mydata <- read.table("exmp12-36.txt",header = T)
 
@@ -10,3 +10,4 @@ summary(model)
 #abline(model, col='blue')
 
 res <- residuals(model)
+plot(wingspan,c(height,foot))

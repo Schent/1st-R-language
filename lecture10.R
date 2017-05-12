@@ -1,6 +1,6 @@
+setwd("")
 
-wd <- getwd();
-mydata <- read.table("exmp12-05.txt",header = T)
+mydata <- read.table("exmp12-07.txt",header = T)
 attach(mydata)
 
 x <- filtrate
